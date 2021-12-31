@@ -3,10 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="Content-Style-Type" content="text/css">
-<link rel="index" href="Index.html">
-<title>Accueil</title>
+<title>Contact</title>
+<link rel="contact" href="contact:html">
 <style type="text/css" media="screen">
-
 	#menu{
 		list-style-type:none;float:right;
 	}
@@ -25,6 +24,16 @@
 		color:rgb(250, 250, 179);
 	}
 	
+.stylecontact{
+    background-color: #000;
+    width: 550px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+    color: white;
+    text-align: center;
+}   
 
 .photo{
     float: left;
@@ -35,65 +44,163 @@
     margin-top: 30px;
 }
 
-.menu{
-    align-co
+.box{
+    align-content: center;
+    margin-top: 0px;
+    margin-left: 700px;
+    font-size: 1em;
+    color: #fff;
+    background: #050505;
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: 0,5s;
+    margin-right: 700px;
+
+
 
 
 }
 
+.box .imbox{
+    align-content: center;
+    position: relative;
+}
+.box
+.imbox:hover{
+    color: blueviolet;
+    background-color: ;
+}
 
+.bed a:link; .bed a:visited{text-decoration: none;
+    
+} 
+
+.contact{
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0,8);
+    width: 100%;
+    background-size: cover; 
+    color: white;
+    background-position: unset;
+    margin-top: 100px;
+}
+
+.contactform{
+    padding: 75px 50px;
+    background: white;
+    box-shadow: 5px 15px 50px rgba(0, 0, 0, 0,8);
+    max-width: 500px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.contactform h3{
+color: black;
+font-size: 1,2em;
+margin-bottom: 20px;
+}
+
+.contactform .inputboite{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contactform .inputboite input,
+.contactform .contactform .inputboite textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #000;
+    outline:  none;
+    font-size: 16px;
+    font-weight: 300px;
+    resize: none;
+}
+
+.contactform .inputboite input[type="submit"]{
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    background-color: black;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    transition: 0,5s; 
+    max-width: 120px;
+    align-items: center;
+    justify-content: center;
+}
 </style>
 </head>
 <body>
-    <div style="background-image : url('./SITE.bmp') ;
-                width: 1515px;
-                height: 700px;
-                background-size: cover;  
-                float: left;    
-                margin-left: -7px;
-                margin-bottom: -1000px;     
-                clear: both;">
+    <div style="background-color: #000; margin-top: -20px; width: 325px; height: 60px; clear: both; float: right;">
 <ul id="menu">
     <li><a href="./Index.html">Accueil</a></li>
    
     <li><a href="./contact.html" target="zone">Contacts</a></li>
 </ul>
+</div>
+    <img src="lo.png" alt="Trulli" style="width:15%; margin-top: -30px;"> 
+<section style="width: 1300px; height: 400px; margin-left: 75px; margin-bottom: 250px;">
+    <div class="stylecontact" style="width: 400px; background-color: white; margin-bottom: -60px; height: 50px; margin-left: 500px; color: black;">
+        <h3>ME CONTACTER !</h3>
+    </div>
+<div class="stylecontact">
+    <h3>Adresse</h3>
+    <figure>
+        <img src="loca.png" alt="Trulli" style="width:10%">
+        <figcaption>ABIDJAN, Cote d'ivoire.</figcaption>
+      </figure> 
+</div>
+<div class="stylecontact">
+    <h3>Numero de téléphone</h3>
+    <figure>
+        <img src="call.png" alt="Trulli" style="width:15%">
+        <figcaption>00225 0769170800</figcaption>
+      </figure> 
+</div>
+<div class="stylecontact">
+    <h3>Adresse Email</h3>
+    <figure>
+        <img src="mail_icon_blanc_png.png" alt="Trulli" style="width:10%">
+        <figcaption style="font-size: 18px;">yemanyannfredy03@gmail.com</figcaption>
+      </figure> 
+</div>
+<div class="stylecontact">
+    <h3>Site Web</h3>
+    <figure>
+        <img src="web.png" alt="Trulli" style="width:10%">
+        <p><a href="Index.html" style="text-decoration: none; color: white; margin-top: 100px;">
+            YANN FREDY
+        </a></p>
+      </figure> 
+</div>
+</section>
+
 <section class="contact" id="contact">
-    <div class="contact" id="contact">
-        <input type="text" name="Nom & prenoms" size="40" value="90"> 
+    <div class="contactform">
+        <h3>Envoyer un message</h3>
+        <div class="inputboite">
+            <input type="text" placeholder="Nom et Prenoms">
+        </div>
+        <div class="inputboite">
+            <input type="text" placeholder="Email">
+        </div>
+        <div class="inputboite">
+            <textarea placeholder="Message"></textarea>
+        </div>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler">
     </div>
 </section>
-
-<img style="margin-top: 550px; margin-left: 700px;" src="./583-5835976_fire-png-download-logo-facebook-instagram-png-blanc-removebg-preview.png" width="2%" alt=" ">
-<img src="./inst.png" width="2%" alt=" ">
-<img src="./twitter.png" width="2%" alt=" ">
-<img src="./Whas.png" width="2%" alt=" ">
-
-
-</div>
-<section style="clear: both;
-                float: left;
-                background-color: rgb(78, 78, 74); 
-                width: 1510px; 
-                height: 700px;
-                margin-top: 705px;
-                margin-left: -5px;
-                ">
-</section>
-<section style="clear: both;
-float: left;
-background-color: rgb(139, 139, 130); 
-width: 1500px; 
-height: 300px;
-margin-top: 1200px;
-margin-left: -5px;">
-<p style="margin-top: -25%; margin-left: -500px;">
-    <img style="margin-top: 550px; margin-left: 700px;" src="./583-5835976_fire-png-download-logo-facebook-instagram-png-blanc-removebg-preview.png" width="2%" alt=" ">Yann Fredy Yeman
-    <img src="./inst.png" width="2%" alt=" ">yannfredyyeman
-<img src="./Whas.png" width="2%" alt=" ">00225 07 69170800
-<img src="./mail_icon_blanc_png.png" width="2%" alt=" ">yemanyannfredy03@gmail.com
-<img src="./cont.png" width="2%" alt=" ">+225 07 69170800/+212 681-249361
-</p>
-    </section>
 </body>
 </html>

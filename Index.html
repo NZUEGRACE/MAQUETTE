@@ -5,9 +5,15 @@
 <meta http-equiv="Content-Style-Type" content="text/css">
 <title>Accueil</title>
 <link rel="contact" href="contact:html">
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+<script src="./js/bootstrap.bundle.min.js"></script>
 <style type="text/css" media="screen">
 	#menu{
 		list-style-type:none;float:right;
+    position: fixed;
+    margin-left: 1000px;
+    margin-top: 10px;
+    background-color: #111;
 	}
 	#menu li{
 		display:inline
@@ -25,18 +31,28 @@
 	}
 	
 
+\\ Taille des images 
 .photo{
     float: left;
-    width: 730px;
-    height: 600px;
+    width: 220px;
+    height: 250px;
     background-color: aqua;
     margin-left: 20px;
     margin-top: 30px;
 }
 
+.photo_bas{
+  clear : both;
+    width: 480px;
+    height: 480px;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
 .box{
     align-content: center;
-    margin-top: 0px;
+    margin-top: 270px;
     margin-left: 700px;
     font-size: 1em;
     color: #fff;
@@ -48,6 +64,8 @@
     letter-spacing: 1px;
     transition: 0,5s;
     margin-right: 700px;
+    width: 130px;
+    border-radius: 20px;
 
 
 
@@ -66,7 +84,13 @@
 
 .bed a:link; .bed a:visited{text-decoration: none;
     
-}   
+}  
+img a*{text-decoration:none; color: #fff;
+
+
+	}
+
+
 </style>
 </head>
 <body>
@@ -77,71 +101,73 @@
                 float: left;    
                 margin-left: -7px;
                 margin-bottom: -1000px;     
-                clear: both;
+                    clear: both;
 
     ">
 <ul id="menu">
     <li><a href="./Index.html">Accueil</a></li>
    
-    <li><a href="#contact" target="zone">Contacts</a></li>
+    <li><a href="./contact.html" target="zone">Contacts</a></li>
+    <li><a href="./apropos.html" target="zone">À propos de</a></li>
 </ul>
-<img style="margin-top: 550px; margin-left: 700px;" src="./583-5835976_fire-png-download-logo-facebook-instagram-png-blanc-removebg-preview.png" width="2%" alt=" ">
-<img src="./inst.png" width="2%" alt=" ">
-<img src="./twitter.png" width="2%" alt=" ">
-<img src="./Whas.png" width="2%" alt=" ">
-<img src="./JKI.png" style="margin-bottom: 200px; margin-right: 1000px; width: 400px; height: 300px; margin-top: -630px; margin-left: -90px;">
-
+<img style="margin-top: 550px; margin-left: 700px;" src="./leface.png" width="2%" alt=" ">
+<img style="margin-top: -30px; margin-left: 10px; margin-bottom: -580px;" src="./grammm.png" width="2%" alt=" ">
+<img src="./Whas.png" width="2%" alt=" " style="margin: top 1000px; margin-left: 0px; margin-bottom: -550px;">
+<img src="./JKI.png" style="margin-bottom: 1000px; margin-top: -30px; margin-left: -880px; width: 400px; position: fixed; margin-right: 1000px;" alt="">
 </div>
 
+
 <section style="clear: both;
-                float: left;
-                background-color: rgb(78, 78, 76); 
-                width: 1510px; 
-                height: 3150px;
-                margin-top: 705px;
-                margin-left: -5px;
-                border-radius: 10px;
-                ">
-<span class="photo" style="background-image: url('./pig.jpg'); background-size: cover;">
-</span>
-<span class="photo"> <img src="./Papi.jpg" alt="" width="100%" height="100%">
-</span>
-<span class="photo" style="background-image: url(./KS.jpg); background-size: cover;">
-</span>
-<span class="photo" style="background-image: url(./saut.jpg); background-size: cover;">
-</span>
-<span class="photo"> <img src="./rabia.jpg" alt="" width="100%" height="100%">
-</span>
-<span class="photo"> <img src="./mariage.jpg" alt="" width="740px" height="600px">
-</span>
-<span class="photo"> <img src="./alloco.jpg" alt="" width="740px" height="600px">
-</span>
-<span class="photo"> <img src="./presi.jpg" alt="" width="740px" height="600px">
-</span>
-<span class="photo"> <img src="./filles.jpg" alt="" width="740px" height="600px">
-</span>
-<span class="photo"> <img src="./assinie.jpg" alt="" width="740px" height="600px">
-</span>
+float: left;
+background-color:white; 
+width: 1515px; 
+height: 700px;
+margin-top: 700px;
+margin-left: 0px;
+border-radius: 10px;
+">
+          <span style="height: 330px; display: flex; flex-direction: row; flex-wrap: wrap; align-items: center;">
+            <img src="./mori.jpg" class="photo_bas" width="100%"/>
+            <img src="./lui.jpg" class="photo_bas" width="100%"/>
+            <img src="./bloo.jpg" class="photo_bas" width="100%"/>
+            <img src="./dav.jpg" class="photo_bas" width="100%"/>
+            <img src="./saut.jpg" class="photo_bas" width="100%"/>
+            <img src="./KS.jpg" class="photo_bas" width="100%"/>
+          </span>
 </section>
 <section>
     <div class="box" id="box">
-    <h2 class="imbox">Voir Plus</h2>
+    <h7 class="imbox"> <a href="./voir.html" style="text-decoration: none; color: #fff;">NEXT PAGE</a>
+    </h7>
 </div>
     </section>
 <section style="clear: both;
 float: left;
+list-style: none;
 background-color: rgb(12, 12, 12); 
 width: 1500px; 
-height: 300px;
-margin-top: -19px;
-margin-left: -5px; background-image: url(./lo.png); border-radius: 20px;">
-<p style="margin-top: -25%; margin-left: -500px;" id="bed" text-decoration="none">
-    <img style="margin-top: 550px; margin-left: 700px;" src="./583-5835976_fire-png-download-logo-facebook-instagram-png-blanc-removebg-preview.png" width="2%" alt=" "><a href="http://www.facebook.com/yannfredy.yeman" target="_blank">Yann Fredy Yeman</a>
-    <img src="./inst.png" width="2%" alt=" "><a href="http:///instagram.com/yannfredyyeman" target="_blank">yannfredyyeman</a>
-<img src="./Whas.png" width="2%" alt=" "><a href="http://wa.me/+2250769170800/" target="_blank">00225 07 69170800</a>
-<img src="./mail_icon_blanc_png.png" width="2%" alt=" ">yemanyannfredy03@gmail.com
-<img src="./cont.png" width="2%" alt=" ">+225 07 69170800/+212 681-249361
-</p>
-    </section>
+height: 150px;
+margin-top: -10px;
+margin-left: 10px; background-image: url(./lo.png); border-radius: 20px; background-size: 10%; background-repeat:  no-repeat; background-position: left;
+justify-content: space-evenly;
+align-items: center;
+display: flex;
+line-height: -800px;
+white-space: nowrap; word-spacing: 2px;">
+<ul style="margin-left: 90px;
+align-items: center;
+display:flex;
+list-style: none;
+line-height: -800px;
+white-space: nowrap;
+word-spacing: 2px;
+">
+<li><img src="leface.png" width="10%"><a href="http://www.facebook.com/yannfredy.yeman" target="zone" style="text-decoration: none; color: #fff;">Yann Fredy Yeman</a></li>
+<li><img src="grammm.png" width="10%"><a href="http://instagram.com/yannfredyyeman?utm_medium=copy_link" target="zone" style="text-decoration: none; color: #fff;">YEMAN_OFFICIEL</a></li>
+<li><img src="tub.png" width="10%"><a href="http://youtube.com/channel/UC5OtJHCRDNE_XTXRsx-9pyQ" target="zone" style="text-decoration: none; color: #fff;">YANN FREDY YEMAN</a></li>
+<li><img src="Whas.png" width="15%"><a href="http://wa.me/+2250769170800/" target="zone" style="text-decoration: none; color: #fff;">Yann Fredy Yeman</a></li>
+<li><img src="mail_icon_blanc_png.png" width="15%"><a href="mailto:yemanyannfredy03@gmail:com" target="zone" style="text-decoration: none; color: #fff;">Yann Fredy Yeman</a></li>
+</ul>
+ </section>
 </body>
 </html>
